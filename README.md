@@ -7,6 +7,34 @@ Built with **React + Express + TypeScript + Prisma + PostgreSQL** in a monorepo 
 
 ---
 
+## Application Preview
+
+| | |
+|:---:|:---|
+| **Login** | **Claims list** |
+| ![Login](docs/screenshots/01-login.png) | ![Claims list](docs/screenshots/02-claims-list.png) |
+| *Secure sign-in with role-based demo accounts* | *Search, filter, and paginate claims with status and assignment* |
+| **Claim detail — Overview** | **Dashboard** |
+| ![Claim detail overview](docs/screenshots/03-claim-detail-overview.png) | ![Dashboard](docs/screenshots/04-dashbord.png) |
+| *Full claim data, status workflow, and assignment* | *Aggregated stats and quick access to tasks* |
+| **Claim detail — Notes** | **Audit log** |
+| ![Claim detail notes](docs/screenshots/05-claim-detail-notes.png) | ![Audit log](docs/screenshots/06-audit-log.png) |
+| *Notes timeline and task creation per claim* | *Full audit trail with actor, action, and metadata* |
+| **Admin — Users** | |
+| ![Admin users](docs/screenshots/07-admin-users.png) | |
+| *User management and role assignment (Admin only)* | |
+
+### Mobile
+
+| | |
+|:---:|:---|
+| **Navigation** | **Tasks** |
+| ![Navigation mobile](docs/screenshots/08-navi-mobile%20.png) | ![Tasks mobile](docs/screenshots/09-tasks-mobile.png) |
+| *Responsive drawer navigation* | *Task list on small screens* |
+
+
+---
+
 ## Live Demo
 
 | | URL |
@@ -70,6 +98,7 @@ claimflow/
 │   └── shared/           # Shared Zod schemas, types, RBAC constants
 ├── docs/
 │   ├── architecture.md   # System architecture overview
+│   ├── screenshots/      # Application UI screenshots (see Application Preview above)
 │   └── adr/              # Architecture Decision Records
 │       ├── ADR-001-contracts.md
 │       ├── ADR-002-rbac.md
